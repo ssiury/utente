@@ -9,7 +9,39 @@ body{
 main{
     display: relative;
     margin-top: 4%;
-    color: aliceblue;
+    color: white;
+}
+header{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 1px;
+}
+.container-bloco{
+    margin: auto;
+    background-color: #151515;
+    width: 70%;
+    height: 60vh;
+    border-radius: 20px;
+}
+.form-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40%;
+}
+.form-image img{
+    width: 35rem;
+    margin-left: -5rem;
+    margin-bottom: -30rem;
+}
+.cad{
+    margin-top: 5rem;
+    margin-left: 37rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media( max-width: 1200px){
     main{
