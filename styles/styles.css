@@ -15,7 +15,6 @@ header{
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    font-weight: 1px;
 }
 .container-bloco{
     margin: auto;
@@ -44,6 +43,86 @@ header{
     justify-content: center;
     align-items: center;
 }
+.registros{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    transition: .5s;
+}
+.butoesAltera{
+    margin-top: 3rem;
+    position: relative;
+    width: 20vw;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 #27292b;
+}
+.butoesAltera button{
+    position: relative;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 15px 43px;
+}
+.btncor{
+    position: absolute;
+    width: 153px;
+    height: 53px;
+    background: linear-gradient(to right, #27292b, #2f3031);
+    border-radius: 30px;
+}
+.container-bloco h1{
+    margin-left: 5%;
+    padding-top: 2rem;
+}
+.tabela{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+#tbusuarios{
+    transition: .5s;
+    margin-top: 15rem;
+    position: absolute;
+}
+#tbprodutos{
+    transition: .5s;
+    margin-top: 15rem;
+    margin-left: 200rem;
+    position: absolute;
+}
+.inicio{
+    margin-top: 3rem;
+    display: flex;
+    position: relative;
+}
+.image-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+}
+.image-inicio img{
+    margin-top: 0.5rem;
+    width: 30rem;
+}
+.texto1{
+    margin-left: 1rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    border-left: 1px solid white;
+    width: 35rem;
+    height: 25rem;
+}
+.texto1 p{
+    text-indent: 2em;
+}
+
 @media( max-width: 1200px){
     main{
         margin-top: 15%;
